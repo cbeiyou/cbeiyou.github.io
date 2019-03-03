@@ -1,28 +1,26 @@
 # Site settings
-title: BY Blog
-SEOTitle: 柏荧的博客 | BY Blog
+title: 北音清
+SEOTitle: 北音清的博客 | BY Blog
 header-img: img/post-bg-desk.jpg
-email: qiubaiying@gmail.com
-description: "Every failure is leading towards success."
-keyword: "BY, BY Blog, 柏荧的博客, qiubaiying, 邱柏荧, iOS, Apple, iPhone"
-url: "http://qiubaiying.github.io"          # your host, for absolute URL
+email: xingjin.bei@gmail.com
+description: "种一棵树最佳时间，一个是十年前，一个是现在"
+keyword: "BY, BY Blog, 北音清的博客, xingjin.bei,xingjin,Android,java"
+url: "http://cbeiyou.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
+github_repo: "https://github.com/cbeiyou/cbeiyou.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/avatar_beiyou.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # SNS settings
 RSS: false
 # weibo_username:     qiubaiying
-zhihu_username:     qiubaiying
-github_username:    qiubaiying
-facebook_username:  baiying.qiu.7
-jianshu_username:   e71990ada2fd
+zhihu_username:     北音清
+github_username:    北音清
 #twitter_username:   qiubaiying
 
 
@@ -72,13 +70,13 @@ gitalk:
 
 # 统计
 
-# Analytics settings
-# Baidu Analytics
-ba_track_id: b50bf2b12b5338a1845e33832976fd68
+# # Analytics settings
+# # Baidu Analytics
+# ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
-# Google Analytics
-ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+# # Google Analytics
+# ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
+# ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
