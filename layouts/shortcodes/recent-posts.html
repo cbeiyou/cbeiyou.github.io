@@ -1,0 +1,14 @@
+{{ $posts := where .Site.RegularPages "Section" "posts" }}
+{{ $count := default 10 (int (.Get "count" | default "10")) }}
+<p>推荐使用 <a href="/index.xml">RSS 订阅</a>｜ <a href="/posts/">阅读全部</a></p>
+<ul class="book-posts-list">
+{{ range first $count $posts }}
+  <li class="book-post-item">
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    <div class="book-post-meta">
+      {{ with .GetTerms "tags" }}{{ range . }}<a href="{{ .RelPermalink }}">{{ .Title }}</a> {{ end }}{{ end }}
+      — {{ .Date.Format "2006-01-02" }}
+    </div>
+  </li>
+{{ end }}
+</ul>

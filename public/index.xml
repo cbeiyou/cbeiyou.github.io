@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cbeiyou</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on cbeiyou</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 26 Feb 2026 00:07:02 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>近况</title>
+      <link>http://localhost:1313/docs/now/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/now/</guid>
+      <description>&lt;p&gt;&lt;code&gt;updated on 2026-02-26&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;近况&#34;&gt;近况&lt;a class=&#34;anchor&#34; href=&#34;#%e8%bf%91%e5%86%b5&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;博客刚搭好，持续更新中。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;近期中意&#34;&gt;近期中意&lt;a class=&#34;anchor&#34; href=&#34;#%e8%bf%91%e6%9c%9f%e4%b8%ad%e6%84%8f&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;（待补充）&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>关于</title>
+      <link>http://localhost:1313/docs/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/about/</guid>
+      <description>&lt;h2 id=&#34;关于我&#34;&gt;关于我&lt;a class=&#34;anchor&#34; href=&#34;#%e5%85%b3%e4%ba%8e%e6%88%91&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;一个热爱技术与分享的普通人。&lt;/li&gt;&#xA;&lt;li&gt;写博客的初衷，是受 &lt;a href=&#34;https://blog.douchi.space/&#34;&gt;椒盐豆豉&lt;/a&gt; 启发。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;联系方式&#34;&gt;联系方式&lt;a class=&#34;anchor&#34; href=&#34;#%e8%81%94%e7%b3%bb%e6%96%b9%e5%bc%8f&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;（待补充）&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>First</title>
+      <link>http://localhost:1313/posts/first/</link>
+      <pubDate>Thu, 26 Feb 2026 00:07:02 +0800</pubDate>
+      <guid>http://localhost:1313/posts/first/</guid>
+      <description>&lt;p&gt;欢迎来到我的博客！这是第一篇的示例文章。&lt;/p&gt;&#xA;&lt;p&gt;如果你看到这篇内容，说明 Hugo 和 Book 主题已经正常工作。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

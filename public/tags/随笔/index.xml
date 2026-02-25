@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>随笔 on cbeiyou</title>
+    <link>https://cbeiyou.github.io/tags/%E9%9A%8F%E7%AC%94/</link>
+    <description>Recent content in 随笔 on cbeiyou</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 26 Feb 2026 00:07:02 +0800</lastBuildDate>
+    <atom:link href="https://cbeiyou.github.io/tags/%E9%9A%8F%E7%AC%94/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First</title>
+      <link>https://cbeiyou.github.io/posts/first/</link>
+      <pubDate>Thu, 26 Feb 2026 00:07:02 +0800</pubDate>
+      <guid>https://cbeiyou.github.io/posts/first/</guid>
+      <description>&lt;p&gt;欢迎来到我的博客！这是第一篇的示例文章。&lt;/p&gt;&#xA;&lt;p&gt;如果你看到这篇内容，说明 Hugo 和 Book 主题已经正常工作。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

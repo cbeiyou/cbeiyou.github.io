@@ -1,3 +1,31 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Project'
+baseURL = 'https://cbeiyou.github.io/'
+languageCode = 'zh-cn'
+title = '未保存但继续'
+description = '记得commit'
+
+theme = 'hugo-book'
+
+[menu]
+  [[menu.home]]
+    name = "首页"
+    pageRef = "/"
+    weight = 1
+  [[menu.home]]
+    name = "博客"
+    pageRef = "/posts/"
+    weight = 2
+  [[menu.after]]
+    name = "博客"
+    pageRef = "/posts/"
+    weight = 10
+
+[params]
+  BookTheme = 'auto'
+  BookToC = true
+  BookSection = 'docs'
+  BookDateFormat = '2006-01-02'
+  BookSearch = true
+  BookComments = false
+
+[markup.goldmark.renderer]
+  unsafe = true

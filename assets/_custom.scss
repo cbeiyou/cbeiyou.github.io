@@ -1,0 +1,32 @@
+/* 仿椒盐豆豉风格优化 */
+.book-posts-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 1rem 0;
+}
+
+.book-post-item {
+  margin-bottom: 1.25rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border-color, #ebebeb);
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  a {
+    font-weight: 500;
+  }
+}
+
+.book-post-meta {
+  font-size: 0.875rem;
+  color: var(--body-font-color);
+  opacity: 0.8;
+  margin-top: 0.25rem;
+
+  a {
+    margin-right: 0.5rem;
+    font-size: 0.8rem;
+  }
+}

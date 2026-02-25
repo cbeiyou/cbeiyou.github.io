@@ -1,0 +1,6 @@
+{{ $posts := where .Site.RegularPages "Section" "posts" }}
+{{ $totalWords := 0 }}
+{{ range $posts }}{{ $totalWords = add $totalWords .WordCount }}{{ end }}
+{{ $qian := div $totalWords 1000 }}
+<p><strong>博文统计</strong></p>
+<p>博文数量：{{ len $posts }} 篇 | 累计字数：{{ $qian }} 千字</p>
