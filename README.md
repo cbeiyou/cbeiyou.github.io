@@ -1,31 +1,26 @@
-# cbeiyou.github.io
+# 未保存但继续 · unsavedyet
 
-基于 Hugo 和 Book 主题的个人博客站点。
+个人博客，基于 Hugo + Book 主题。受 [椒盐豆豉](https://blog.douchi.space/) 启发。
 
 ## 本地运行
 
-1. **安装 Hugo Book 主题**（首次或克隆后执行）：
-
-   ```bash
-   git submodule add https://github.com/alex-shpak/hugo-book themes/hugo-book
-   # 如果已克隆且子模块未初始化，使用：
-   # git submodule update --init --recursive
-   ```
-
-2. **启动开发服务器**：
-
-   ```bash
-   hugo server -D
-   ```
-
-3. 在浏览器中打开 http://localhost:1313
-
-## 部署到 GitHub Pages
-
-构建静态文件：
-
 ```bash
-hugo
+# 确保已安装 Hugo Extended
+hugo server -D
 ```
 
-生成的网站文件在 `public/` 目录，可将该目录内容部署到 GitHub Pages。
+浏览器打开 http://localhost:1313
+
+## 部署
+
+推送到 `main` 分支后，GitHub Actions 自动构建并部署到 GitHub Pages。
+
+**首次部署**：在仓库 Settings → Pages 中，将 Source 设置为 `Deploy from a branch`，Branch 选择 `gh-pages`。
+
+## 写文章
+
+```bash
+hugo new posts/你的文章.md
+```
+
+编辑 `content/posts/你的文章.md`，在 front matter 中设置 `categories` 和 `tags`。

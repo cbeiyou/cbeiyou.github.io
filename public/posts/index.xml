@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on cbeiyou</title>
+    <title>Posts on 未保存但继续</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on cbeiyou</description>
+    <description>Recent content in Posts on 未保存但继续</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 26 Feb 2026 00:07:02 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First</title>

@@ -6,9 +6,12 @@
   <li class="book-post-item">
     <a href="{{ .RelPermalink }}">{{ .Title }}</a>
     <div class="book-post-meta">
+      {{ with .GetTerms "categories" }}{{ range . }}<a href="{{ .RelPermalink }}">{{ .Title }}</a> {{ end }}{{ end }}
       {{ with .GetTerms "tags" }}{{ range . }}<a href="{{ .RelPermalink }}">{{ .Title }}</a> {{ end }}{{ end }}
       — {{ .Date.Format "2006-01-02" }}
     </div>
+    <p class="book-post-excerpt">{{ .Summary | plainify | truncate 120 }}</p>
+    <a href="{{ .RelPermalink }}" class="book-post-readmore">阅读全文 · 约 {{ .WordCount }} 字 / {{ .ReadingTime }} 分钟</a>
   </li>
 {{ end }}
 </ul>

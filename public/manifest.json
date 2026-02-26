@@ -1,6 +1,6 @@
 {
-  "name": "cbeiyou",
-  "short_name": "cbeiyou",
+  "name": "未保存但继续",
+  "short_name": "未保存但继续",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

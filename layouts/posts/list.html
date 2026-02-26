@@ -1,0 +1,40 @@
+{{ define "main" }}
+  {{ range sort .Paginator.Pages }}
+  <article class="book-post markdown">
+    <h2>
+      <a href="{{ .RelPermalink }}">{{ partial "docs/title" . }}</a>
+    </h2>
+    <div class="book-post-container flex gap">
+      <div>
+        {{ partial "docs/post-meta" . }}
+        <div class="book-post-content markdown-inner">
+          {{- .Summary | truncate 300 -}}
+        </div>
+        <a href="{{ .RelPermalink }}" class="book-post-readmore">阅读全文 - 本文约 {{ .WordCount }} 字，阅读约需 {{ .ReadingTime }} 分钟</a>
+      </div>
+      {{- $thumbnail := default "thumbnail.*" .Params.BookPostThumbnail -}}
+      {{- with or (.Resources.GetMatch $thumbnail) (resources.GetMatch $thumbnail) -}}
+      <div class="book-post-thumbnail">
+        <img src="{{ .RelPermalink }}" alt="{{ partial "docs/text/i18n" "Thumbnail" }}" />
+      </div>
+      {{- end -}}
+    </div>
+  </article>
+  {{ end }}
+{{ end }}
+
+{{ define "toc-container" }}
+<aside class="book-toc">
+  <div class="book-toc-content">
+    {{ template "toc" . }}
+  </div>
+</aside>
+{{ end }}
+
+{{ define "toc" }}
+  {{ partial "docs/taxonomy" . }}
+{{ end }}
+
+{{ define "footer" }}
+  {{ partial "docs/pagination.html" . }}
+{{ end }}

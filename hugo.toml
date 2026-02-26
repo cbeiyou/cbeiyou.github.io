@@ -19,6 +19,8 @@ theme = 'hugo-book'
     pageRef = "/posts/"
     weight = 10
 
+copyright = '© 2026 未保存但继续'
+
 [params]
   BookTheme = 'auto'
   BookToC = true

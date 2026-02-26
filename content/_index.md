@@ -9,7 +9,7 @@ unsavedyet · 记得commit
 
 ## 老友来访 #
 
-｜ [🆕 近况如何](/docs/now/) ｜ [✉️ 联系博主](/docs/about/) ｜ [📖 阅读博客](/posts/) ｜
+｜ [🆕 近况如何](/docs/now/) ｜ [✉️ 联系博主](/docs/about/) ｜ [📖 阅读博客](/posts/) ｜ [✨ 随便看看](/posts/) ｜
 
 ## 博文统计 #
 
