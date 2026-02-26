@@ -3,18 +3,32 @@ title: ""
 layout: landing
 ---
 
-# 未保存但继续 {anchor=false}
+<div class="home-layout">
+  <aside class="home-column home-column-left">
+    <h2>目录</h2>
+    {{< home-directory >}}
+  </aside>
 
-unsavedyet · 记得commit
+  <main class="home-column home-column-center">
+    <h1>未保存但继续</h1>
+    <p class="home-subtitle">unsavedyet · 记得 commit</p>
 
-## 老友来访 #
+    <section>
+      <h2>Book</h2>
+      <div class="home-cover-card">
+        <p>一本关于技术、记录和思考的小书。</p>
+        <p><a href="/docs/">从目录开始阅读</a></p>
+      </div>
+    </section>
 
-｜ [🆕 近况如何](/docs/now/) ｜ [✉️ 联系博主](/docs/about/) ｜ [📖 阅读博客](/posts/) ｜ [✨ 随便看看](/posts/) ｜
+    <section>
+      <h2>最近更新</h2>
+      {{< recent-posts count="8" >}}
+    </section>
+  </main>
 
-## 博文统计 #
-
-{{< blog-stats >}}
-
-## 最近更新 #
-
-{{< recent-posts count="10" >}}
+  <aside class="home-column home-column-right">
+    <h2>标签</h2>
+    {{< home-tags limit="24" >}}
+  </aside>
+</div>

@@ -1,0 +1,9 @@
+{{ $limit := default 20 (int (.Get "limit" | default "20")) }}
+{{ $tags := .Site.Taxonomies.tags }}
+<div class="home-tags">
+  {{ range first $limit (sort $tags "Count" "desc") }}
+    <a class="home-tag" href="{{ .Page.RelPermalink }}">#{{ .Page.Title }} <span>{{ .Count }}</span></a>
+  {{ else }}
+    <p>暂无标签</p>
+  {{ end }}
+</div>

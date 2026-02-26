@@ -1,4 +1,70 @@
-/* 仿椒盐豆豉风格优化 */
+/* 首页三栏布局 */
+.home-layout {
+  display: grid;
+  grid-template-columns: minmax(12rem, 1fr) minmax(0, 2fr) minmax(12rem, 1fr);
+  gap: 1.5rem;
+  align-items: start;
+  margin-top: 1rem;
+}
+
+.home-column {
+  min-width: 0;
+}
+
+.home-column h2 {
+  margin-top: 0;
+  font-size: 1.1rem;
+}
+
+.home-subtitle {
+  opacity: 0.7;
+  margin-top: -0.5rem;
+}
+
+.home-cover-card {
+  border: 1px solid var(--gray-200);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background: var(--gray-50);
+}
+
+.home-directory-list {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.home-directory-list li {
+  margin: 0.35rem 0;
+}
+
+.home-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.home-tag {
+  display: inline-flex;
+  gap: 0.3rem;
+  align-items: center;
+  padding: 0.15rem 0.45rem;
+  border: 1px solid var(--gray-200);
+  border-radius: 999px;
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+.home-tag span {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 980px) {
+  .home-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* 最近更新样式 */
 .book-posts-list {
   list-style: none;
   padding-left: 0;

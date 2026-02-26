@@ -1,0 +1,8 @@
+{{ $docs := where .Site.RegularPages "Section" "docs" }}
+<ul class="home-directory-list">
+  <li><a href="/docs/">开始阅读</a></li>
+  {{ range sort $docs "Title" "asc" }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+  {{ end }}
+  <li><a href="/posts/">全部博文</a></li>
+</ul>
